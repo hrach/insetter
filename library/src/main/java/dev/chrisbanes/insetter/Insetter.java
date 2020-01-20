@@ -246,6 +246,7 @@ public class Insetter {
         mlp.rightMargin = marginRight;
         mlp.bottomMargin = marginBottom;
         view.setLayoutParams(lp);
+        view.requestLayout();
 
         if (Log.isLoggable(TAG, Log.DEBUG)) {
           Log.d(
